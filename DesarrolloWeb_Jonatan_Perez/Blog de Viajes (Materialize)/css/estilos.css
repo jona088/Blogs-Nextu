@@ -1,0 +1,38 @@
+body{
+  background-image: url(../img/bariloche.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.logo{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.cont-general{
+  margin-top: 20px; 
+}
+.slogan{ 
+  padding-top: 80px;
+}
+.social{
+  min-height: 50px;
+  min-width: 50px;
+}
+
+a[class*="btn"]{
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.contenido{
+  margin: 0 20px 0 20px;
+}
+.contenido p{
+  margin: 0 10px 0 10px;
+}
+.pic-profile{
+  max-height: 200px;
+}

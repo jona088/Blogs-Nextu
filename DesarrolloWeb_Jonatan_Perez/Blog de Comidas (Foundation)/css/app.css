@@ -1,0 +1,102 @@
+*{
+  color: #4d4e4f;
+}
+
+@font-face{
+  font-family: PLAYPULL;
+  src: url(../font/PLAYPULL.ttf);
+}
+@font-face{
+  font-family: adalgisa;
+  src: url(../font/Adalgisa.ttf);
+}
+@font-face{
+  font-family: redemption;
+  src: url(../font/Redemption.ttf);
+}
+body{
+  background-image: url(../img/cocina.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  min-height: 100vh;
+}
+/* div{
+  border: 1px solid black;
+} */
+.contenedor{
+  background-color: rgba(174, 229, 123,0.6);
+}
+h1{
+  font-family: redemption;
+  font-size: 60px;
+  color: white;
+}
+.slogan{
+  text-align: right;
+  color: white;
+  font-family: PLAYPULL;
+}
+.bordeinf{
+  border-bottom: 2px groove white;
+}
+.borde{
+  border-right: 2px groove white;
+}
+.panel-izq{
+  padding: 20px 8px 10px 8px;
+}
+.favs img{
+  padding-bottom: 10px;
+}
+.hist{
+  padding-top: 20px;
+}
+.cont-blog{
+  padding: 20px 8px 10px 8px;
+}
+.f-pub{
+  color: #cc4b37;
+}
+.publicacion img{
+  width: 800px;
+}
+p{
+  font-size: 15px;
+}
+.insert-coment textarea{
+  height: 100px;
+}
+textarea{
+  resize: none;
+}
+.comentarios{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.comentarios textarea{
+  height: 70px;
+}
+.comentarios img{
+  border-radius: 5px;;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 575px){
+  .cont-blog{
+    padding: 0;
+  }
+}
+
+@media (min-width: 639px) and (max-width:738px){
+  h1{
+    font-size: 55px;
+  }
+}
+
